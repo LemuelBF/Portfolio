@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<body>
+
+		<div id="modal-box">
+		<span onclick="closeModal()">&times; </span>
+		<div id="modal-content"></div></div>
+
+		<section class="section section-1">
+			<div class="header-1">About Me</div>
+			<div>
+				<img class="picture" src="images/my_pic.jpg">
+			</div>
+			<div>
+				<p class="intro">
+					Hello, my name is Lemuel B. Ferrer. I'm a student at Central Luzon State University who is taking a Bachelor of Science in Information Technology degree with a major in System Development. My long-term dream is to become a game developer and to be able to work for a famous mobile game developer company.
+				</p>
+			</div>
+				<a href="https://www.facebook.com/lemuel.ferrer.967"><img src="images/fb.png" class="facebook"></a>
+				<p class="details">ferrer.lemuel@clsu2.edu.ph (Gmail)</p>
+				<p class="details">09563345208 (Globe)</p>
+		</section>
+		 <section class="section section-2">
+			<div class="header-2">Project</div>
+			<table>
+				<div>Visual Novel Game (JAVA)</div>
+				<tr>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/adventure.png">
+					</td>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/adventure2.png">
+					</td>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/adventure3.png">
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table>
+					<div>Student Residence Monitory (JAVA)</div>
+				<tr>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/student.png">
+					</td>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/dorm.png">
+					</td>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/transaction.png">
+					</td>
+					<td>
+						<img onclick="openModal(this)" class="project" src="images/report.png">
+					</td>
+				</tr>
+			</table>
+		</section>
+	</body>	
+</html>

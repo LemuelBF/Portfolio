@@ -1,0 +1,111 @@
+html, body{
+	overflow-x:auto;
+	font-size: 20px;
+	color: #dfdfdf;
+	background: #900D09;
+}
+
+section{
+	padding-bottom: 20px;
+	margin: 40px;
+	background-color: #454545;
+}
+
+img{
+	border-radius: 8px;
+}
+
+.header-1{
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.header-2{
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.section-1 {
+	border-style: inset;
+}
+
+.section-2 {
+	border-style: inset;
+}
+
+.project{
+	height:200px;
+	display: block;
+}
+
+.project:hover {
+  opacity: 0.7;
+}
+
+.picture{
+  height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.facebook{
+  height:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.facebook:hover {
+  opacity: 0.7;
+}
+
+.intro {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.details{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#viewer{
+	position: absolute;
+	height: 95%;
+	width: auto;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#modal-box{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.9);
+	z-index: 100;
+}
+
+#modal-box span{
+	margin: 10px;
+	font-size: 3em;
+	float: right;
+	color: #dbdbdb;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
