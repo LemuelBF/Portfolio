@@ -123,4 +123,22 @@ table{
   max-height: 100%;
 }
 
+#viewer{
+	position: absolute;
+	max-width: 95%;
+  height: auto;
+}
+
+#modal-box{
+	position: fixed;
+	max-width: auto;
+  height: auto;
+}
+
+#modal-box span{
+	margin: 10px;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+}
 }
